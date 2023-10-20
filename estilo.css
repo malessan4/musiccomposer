@@ -1,0 +1,153 @@
+
+
+*{
+    marging:0;
+    pad: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color:white;
+}
+
+
+
+body{
+	background-color: black;
+	marging:0;
+}
+
+
+
+p{
+	font-size:20px;
+	marging:10px;
+	padding:10px;
+}
+
+
+.header{
+	position: sticky;
+	top: 0px;
+	width: 100%;
+	padding: 0 30px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color:black;
+
+}
+
+.headerLogo{
+	display: flex;
+	align-items: center;
+	
+
+}
+
+.headerMenu a {
+		font-size:17px;
+		padding:3px;
+		marging:3px;
+		
+}
+
+.headerLogo h2{
+	padding-left:10px;
+	font-size:40px;
+
+}
+
+.headerLogo p{
+	font-size:20px;
+}
+
+.headerLogo img{
+	width: 200px;
+
+}
+
+.headerMenu{
+	width:40%;
+}
+
+nav{
+	display:block;
+}
+
+
+.headerMenu ul{
+	display: flex;
+	justify-content: space-around;
+	width:100%;
+	list-style: none;
+}
+
+
+.headerMenu ul li{
+	display: inline-block;
+}
+
+.logo{
+	text-align: center;
+
+}
+
+h1{
+	text-align: center;
+}
+
+h2{
+	text-align: center;
+}
+
+.main{
+	color:white;
+}
+
+@media (max-width: 1200px) {
+	.headerMenu{
+		width:50%;
+	}
+
+	.headerLogo h2{
+		padding:10px;
+		font-size:30px;
+	}
+	
+	.headerMenu a {
+		font-size:18px;
+		padding:3px;
+		marging:3px;
+	}
+
+	.headerLogo p{
+	font-size:23px;
+	padding:5px;
+	marging:5px;
+	}
+
+
+	
+}
+
+@media (max-width: 992px) {
+	.header{
+		flex-direction: column;
+		justify-content: center;
+		}
+
+	.headerLogo h2{
+		font-size:25px;
+		}
+
+	.headerMenu {
+		width: 100%;
+		}
+	.headerLogo p{
+	font-size:17px;
+		}
+
+	.headerMenu a {
+		font-size:20px;
+		}
+
+}
