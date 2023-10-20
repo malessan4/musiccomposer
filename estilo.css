@@ -189,7 +189,7 @@ h2{
 @media (max-width: 418px) {
 
 	.imglogo{
-		width: 200px;
+		width: 65%;
 		height: 200px;
 	}
 	.headerLogo h2{
@@ -207,7 +207,7 @@ h2{
 
 
 			.headerMenu a {
-		font-size:10px;
+		font-size:12px;
 		padding: auto;
 		margin: auto;
 		}
