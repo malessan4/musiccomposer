@@ -15,7 +15,10 @@ body{
 	marging:0;
 }
 
-
+.imglogo{
+	width: 50%;
+	height: 500px;
+}
 
 p{
 	font-size:20px;
@@ -149,5 +152,36 @@ h2{
 	.headerMenu a {
 		font-size:20px;
 		}
+	
+	.imglogo{
+		width: 100%;
+		height: 200px;
+	}
+}
+
+@media (max-width: 512px) {
+
+	.imglogo{
+		width: 70%;
+		height: 200px;
+	}
+	.headerLogo h2{
+		font-size:23px;
+		}
+
+		.headerLogo p{
+			font-size:15px;
+		}
+		
+		.headerLogo img{
+			width: 80px;
+		
+		}
+
+
+			.headerMenu a {
+		font-size:15px;
+		}
+	
 
 }
