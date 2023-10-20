@@ -185,3 +185,28 @@ h2{
 	
 
 }
+
+@media (max-width: 418px) {
+
+	.imglogo{
+		width: 50%;
+		height: 200px;
+	}
+	.headerLogo h2{
+		font-size:20px;
+		}
+
+		.headerLogo p{
+			font-size:13px;
+		}
+		
+		.headerLogo img{
+			width: 60px;
+		
+		}
+
+
+			.headerMenu a {
+		font-size:13px;
+		}
+}
