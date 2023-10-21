@@ -5,7 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
-    color:white;
+
 }
 
 ul{
@@ -24,16 +24,28 @@ body{
 
 p{
 	font-size:20px;
-	marging:5px;
-	padding:5px;
+	marging:3px;
+	padding:3px;
+	color:white;
 }
 
+a{
+	text-decoration: none;
+}
+
+a:visited {
+	color: #09fff9;
+}
+
+a:link {
+	color: #09fff9;
+}
 
 .header{
 	position: sticky;
 	top: 0px;
 	width: 100%;
-	padding: 0 30px;
+	padding: 0px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -49,20 +61,20 @@ p{
 }
 
 .headerMenu a {
-		font-size:17px;
+		font-size:25px;
 		padding:3px;
 		marging:3px;
 		
 }
 
-.headerLogo h2{
-	padding-left:10px;
+.headerLogo h1{
+	padding-left:0px;
 	font-size:40px;
 
 }
 
 .headerLogo p{
-	font-size:20px;
+	font-size:25px;
 }
 
 .headerLogo img{
@@ -71,7 +83,7 @@ p{
 }
 
 .headerMenu{
-	width:40%;
+	width:55%;
 }
 
 nav{
@@ -98,14 +110,23 @@ nav{
 
 h1{
 	text-align: center;
+	color:white;
 }
 
 h2{
-	text-align: center;
+	color: white;
+	padding: 5px;
 }
 
 .main{
 	color:white;
+}
+
+@media (max-width: 1282px) {
+
+	.headerMenu a {
+		font-size:22px;
+	}
 }
 
 @media (max-width: 1200px) {
@@ -124,19 +145,19 @@ h2{
 	
 	}
 
-	.headerLogo h2{
+	.headerLogo h1{
 		padding:3px;
 		font-size:25px;
 	}
 	
 	.headerMenu a {
-		font-size:17px;
+		font-size:21px;
 		padding:3px;
 		marging:0px;
 	}
 
 	.headerLogo p{
-	font-size:14px;
+	font-size:16px;
 	padding:2px;
 	marging:2px;
 	}
@@ -172,7 +193,7 @@ h2{
 		
 		}
 
-	.headerLogo h2{
+	.headerLogo h1{
 		font-size:25px;
 		}
 
@@ -180,7 +201,7 @@ h2{
 		width: 100%;
 		}
 	.headerLogo p{
-	font-size:20px;
+	font-size:21px;
 	padding: 2px;
 		}
 
@@ -207,7 +228,7 @@ h2{
 		width: 70%;
 		height: 200px;
 	}
-	.headerLogo h2{
+	.headerLogo h1{
 		font-size:23px;
 		}
 
@@ -245,7 +266,7 @@ h2{
 		width: 65%;
 		height: 200px;
 	}
-	.headerLogo h2{
+	.headerLogo h1{
 		font-size:13px;
 		}
 
