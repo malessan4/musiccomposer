@@ -1,0 +1,184 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+body{
+	background-color: black;
+	margin:3px;
+	padding:3px;
+}
+
+form{
+	padding: 50px 20px;
+	background-color:#ededed;
+	margin: calc(25% + 100px);
+	margin-top: 70px;
+	padding-top: 28px;
+}
+
+input {
+	width: calc(100% - 20px);
+	padding: 9px;
+	margin: auto;
+	margin-top: 12px;
+	font-size: 16px
+}
+
+input[type='submit']{
+	background-color: #48e;
+	color: #fff;
+	width: calc(80% - 20px);
+	margin: 0 10%;
+	margin-top: 22px;
+	border: none;
+}
+
+
+.ok {
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: #1e6;
+	color: #fff
+}
+.bad {
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: #a22;
+	color: #fff
+}
+
+
+
+
+p{
+	font-size:20px;
+	margin:3px;
+	padding:3px;
+	color:white;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:visited {
+	color: #09fff9;
+}
+
+a:link {
+	color: #09fff9;
+}
+
+a:hover{
+	color:black;
+	background-color:white;
+	transition: color 1s;
+	border-radius:20px;
+}
+
+.header{
+	position: sticky;
+	top: 0px;
+	width: 100%;
+	padding: 0px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color:black;
+
+}
+
+.headerLogo{
+	display: flex;
+	align-items: center;
+	
+
+}
+
+.headerMenu a {
+		font-size:25px;
+		padding:3px;
+		marging:3px;
+		
+}
+
+.headerLogo h1{
+	padding-left:0px;
+	font-size:40px;
+
+}
+
+.headerLogo p{
+	font-size:25px;
+}
+
+.headerLogo img{
+	width: 200px;
+
+}
+
+.headerMenu{
+	width:55%;
+}
+
+nav{
+	display:block;
+}
+
+
+.headerMenu ul{
+	display: flex;
+	justify-content: space-around;
+	width:100%;
+	list-style: none;
+}
+
+
+.headerMenu ul li{
+	display: inline-block;
+}
+
+.logo{
+	text-align: center;
+
+}
+
+.logoVertical {
+	text-align: center;
+}
+
+.logoVertical img{
+	text-align: center;
+	width:30%;
+	height:600px;
+}
+
+.Logo{
+	text-align:center;
+	color:white;
+}
+
+h1{
+	text-align: center;
+	color:#444;
+	padding:12px;
+}
+
+h2{
+	color: white;
+	padding: 5px;
+}
+
+.main{
+	color:white;
+}
+
+input{
+	width: calc(100% - 20px);
+	padding: 9px;
