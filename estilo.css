@@ -8,6 +8,12 @@
 
 }
 
+.musica{
+	text-align: center;
+	padding: 4px;
+	margin: 4px;
+}
+
 ul{
 	padding: 4px;
 }
@@ -23,6 +29,20 @@ h3{
 	margin:4px;
 	padding:4px;
 	
+}
+
+h4{
+	color:white;
+	font-size: 30px;
+	padding: 2px;
+	margin: 2px;
+}
+
+.videos{
+	align-items: center;
+	text-align: center;
+	padding: 4px;
+	margin: 4px;
 }
 
 .miservicio{
