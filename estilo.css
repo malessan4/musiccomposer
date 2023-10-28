@@ -9,6 +9,8 @@
 }
 
 .musica{
+	position: relative;
+	z-index:-1;
 	text-align: center;
 	padding: 4px;
 	margin: 4px;

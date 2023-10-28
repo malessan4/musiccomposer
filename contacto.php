@@ -17,24 +17,20 @@
 				<li> <a href="index.html">Inicio</a> </li>
 				<li> <a href="sobremi.html">Sobre Mi</a></li>
                 <li> <a href="Cursos.html">Cursos</a></li>
-				<li> <a href="Obras.html">Obras</a></li>
-	
+				<li> <a href="https://linktr.ee/maless" role="button" target="blanck">Obras</a> </li>
+				<li> <a href="https://drive.google.com/drive/u/0/folders/1gqw_iskVCQyoT3YtO7yThr6Eu2BfIqqI" role="button"target="blanck2"> Partituras</a> </li>			
 
 			</ul>
 		</nav>
 	</header>
 	
 <body>
-	<form form action="https://formsubmit.co/matialess@gmail.com" method="POST">
+	<form method="post">
 		<h1>¡Suscribite!</h1>
-		<input type="text" name="name" required placeholder="Nombre completo">
-		<input type="email" name="email" required placeholder="Email">
+		<input type="text" name="name" placeholder="Nombre completo">
+		<input type="email" name="email" placeholder="Email">
 		<input type="submit" name="register">
 	</form>
-
-	<input type="text" name="name" required>
-	<input type="email" name="email" required>
-	<button type="submit">Send</button>
 	
 		<?php
 		include("registrar.php");
