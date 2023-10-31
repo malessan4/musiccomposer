@@ -8,6 +8,10 @@
 
 }
 
+.formularioh1{
+	color:black;
+}
+
 .musica{
 	position: relative;
 	z-index:-1;
@@ -136,6 +140,53 @@ nav{
 }
 
 
+.formulario{
+	display: flex;
+	text-align: center;
+	width: 100%;
+	height: 300px;
+}
+
+form{
+	padding: auto;
+	margin: auto;
+	text-align: center;
+	background-color:#ededed;
+	width: 70%;
+	height: 80%;
+}
+
+input {
+	font-size: 35px;
+	padding: 5px;
+	margin: 5px;
+}
+
+input[type='submit']{
+	background-color: #48e;
+	color: #fff;
+	margin: 5px;
+	padding: 5px;
+	border: none;
+}
+
+
+.ok {
+	text-align: center;
+	width: 100%;
+	background-color: #1e6;
+	color: #fff
+}
+.bad {
+	text-align: center;
+	width: 100%;
+	background-color: #a22;
+	color: #fff
+}
+
+
+
+
 .headerMenu ul{
 	display: flex;
 	justify-content: space-around;
@@ -190,6 +241,16 @@ h2{
 
 @media (max-width: 1200px) {
 
+
+	form{
+		width: 70%;
+		height: 90%;
+	}
+
+	input {
+		font-size: 30px;
+	}
+
 	ul{
 		padding: 4px;
 	}
@@ -237,6 +298,15 @@ h2{
 }
 
 @media (max-width: 992px) {
+
+	form{
+		width: 70%;
+		height: 90%;
+	}
+
+	input {
+		font-size: 30px;
+	}
 
 	ul{
 		padding: 4px;
@@ -469,6 +539,16 @@ h3{
 	
 		ul{
 		padding: 2px;
+	}
+
+
+	form{
+		width: 100%;
+		height: 90%;
+	}
+
+	input {
+		font-size: 40px;
 	}
 
 		.videos{
