@@ -24,6 +24,8 @@ ul{
 	padding: 4px;
 }
 
+
+
 body{
 	background-color: black;
 	margin:0px;
@@ -56,12 +58,12 @@ h4{
 .miservicio{
 	font-size:20px;
 	color:white;
-	margin:8px;
-	padding:8px;
+	margin:12px;
+	padding:12px;
 }
 .imglogo{
 	width: 50%;
-	height: 550px;
+	height: 450px;
 }
 
 p{
@@ -248,7 +250,7 @@ h2{
 	}
 
 	input {
-		font-size: 30px;
+		font-size: 35px;
 	}
 
 	ul{
@@ -305,7 +307,7 @@ h2{
 	}
 
 	input {
-		font-size: 30px;
+		font-size: 25px;
 	}
 
 	ul{
@@ -318,6 +320,8 @@ h2{
 
 	p{
 		font-size:18px;
+		padding:4px;
+		margin:4px;
 	}	
 
 	.headerMenu a {
@@ -361,8 +365,8 @@ h2{
 
 	
 	.imglogo{
-		width: 85%;
-		height: 450px;
+		width: 75%;
+		height: 550px;
 		}
 	
 	.logoVertical img{
@@ -377,6 +381,18 @@ h2{
 }
 
 @media (max-width: 512px) {
+
+
+
+	input {
+		font-size: 20px;
+	    }
+		
+	form{
+		width: 80%;
+		height: 70%;
+	}
+
 
 
 	ul{
@@ -460,8 +476,18 @@ h2{
 			padding: 1px;
 			margin: 1px;
 		
-		
 		}
+			form{
+		width: 80%;
+		height: 70%;
+	}
+
+
+		input {
+		font-size: 13px;
+	    }
+
+		
 .miservicio{
 		font-size:14px;
 }
@@ -481,6 +507,15 @@ h2{
 	ul{
 		padding: 3px;
 		margin:1px;
+	}
+
+		input {
+		font-size: 15px;
+	    }
+		
+	form{
+		width: 80%;
+		height: 70%;
 	}
 
 h3{
@@ -517,6 +552,7 @@ h3{
 			margin:1px;
 			padding:1px;
 		}
+		
 		.logoVertical img{
 		text-align: center;
 		width:60%;
@@ -533,6 +569,21 @@ h3{
 		h4{
 			font-size: 20px;
 		}
+		
+		input {
+		font-size: 13px;
+	    }
+
+
+		form{
+			width: 80%;
+			height: 70%;
+		}
+		
+		audio{
+			width:90%;
+		}
+
 }
 
 @media (max-width: 258px) {
@@ -541,15 +592,16 @@ h3{
 		padding: 2px;
 	}
 
-
 	form{
-		width: 100%;
-		height: 90%;
+		width: 80%;
+		height: 70%;
 	}
 
-	input {
-		font-size: 40px;
-	}
+
+		input {
+		font-size: 13px;
+	    }
+
 
 		.videos{
 			width: 75%;
